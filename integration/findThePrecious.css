@@ -1,0 +1,169 @@
+.container-fluid{
+    padding: 0;
+    margin :0;
+}
+section{
+    margin : 5vh 5vw 5vh 5vw;
+}
+.carousel-caption p{
+    font-size: 1.4rem;
+}
+.nav-pills .nav-item{
+    margin-top:5vh;
+    margin-bottom: 5vh;
+}
+
+#fellows ul li a{
+    text-align : center;
+}
+.amount{
+    color:#ffbf00;
+  }
+.imageEtTexte img{
+    opacity : 0.6;
+}
+.reward{
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align : center;
+    font-size : 1.4rem;
+    border-radius : 35px;
+    margin-bottom: 5vh;
+  }
+.dead{
+    color : black;
+    font-weight:bold;
+    font-size : 1.4rem;
+    text-align : center;
+    margin-top:10%;
+}
+.name{
+    text-align : center;
+    color : white;
+    font-weight: bold;
+}
+.name_dead{
+    text-align : center;
+    color : black;
+    font-weight: bold;
+}
+.hunter{
+    padding-top: 2vh;
+}
+
+/* hover */
+.imageEtTexte:hover img{
+    opacity : 1;
+}
+.imageEtTexte:hover .reward{
+    display: none;
+}
+.imageEtTexte:hover .dead{
+    display: none;
+}
+.imageEtTexte:hover .name_dead{
+    margin-top: 30%;
+    color : white;
+    font-size : 1.8rem;
+}
+.imageEtTexte:hover .name{
+    margin-top: 30%;
+    font-size : 1.8rem;
+}
+
+/* media */
+@media screen and (max-width: 575.98px){
+    .reward{
+        font-size : 1rem;
+    }
+    .dead{
+        font-size : 1rem;
+    }
+    .name{
+        display:none;
+    }
+    .name_dead{
+        display:none;
+    }
+    .imageEtTexte:hover .name_dead{
+        display:flex;
+        justify-content: center;
+        color : white;
+        font-weight: normal;
+        font-size : 1.4rem;
+    }
+    .imageEtTexte:hover .name{
+        display:flex;
+        justify-content: center;
+        font-weight: normal;
+        font-size : 1.4rem;
+    }
+    .pills{
+        padding-top: 0px;
+    }
+    .rounded-pill{
+        padding:6px;
+    }
+}
+@media screen and (max-width: 768px){
+    .card{
+        margin-top: 5vh;
+    }
+    .reward-img{
+        display:none;
+    }
+}
+@media screen and (max-width: 1168px) and (min-width:768px){
+    .dead{
+        font-size : 1.1rem;
+    }
+    .reward{
+        font-size : 0.9rem;
+    }
+    .name{
+        display:none;
+    }
+    .name_dead{
+        display:none;
+    }
+    .imageEtTexte:hover .name_dead{
+        display:flex;
+        justify-content: center;
+        color : white;
+        font-weight: normal;
+        font-size : 0.9rem;
+    }
+    .imageEtTexte:hover .name{
+        display:flex;
+        justify-content: center;
+        font-weight: normal;
+        font-size : 0.9rem;
+    }
+}
+
+/* table */
+table th,td{
+    border : 1px solid black;
+}
+table th{
+    background-color: dimgray;
+}
+table tr th{
+    padding:1vh;
+}
+table tr td{
+    padding:1vh;
+}
+
+/* footer */
+footer{
+    color:white;
+}
+footer li{
+    list-style-type: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align:center;
+}
+footer a{
+    color: white;
+}
